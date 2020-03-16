@@ -1,0 +1,46 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(211, 215, 237);
+    color: rgb(223, 225, 202);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title {
+    padding-left: 50%;
+    background: rgb(48, 68, 182);
+    width: 100vw;
+}
+
+#img-div, #image {
+    margin: 25px 0 5px 0;
+    border-radius: 15%;
+    /* Story 8 */
+    max-width: 450px;
+    /* Story 9 */
+    display: block;
+}
+
+#tribute-info {
+    align-self: center;
+    background: rgb(48, 68, 182);
+    width: 100vw;
+    padding-top: 35px;
+    padding-left: 25%;
+}
+
+#tribute-info li {
+    list-style: none;
+    margin: 15px 0 15px 50px;
+
+}
+
+#tribute-info h3 {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+#tribute-link {
+    color: yellow;
+}
